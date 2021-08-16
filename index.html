@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css" >
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<title>Document</title>
+</head>
+<body>
+	<div class="header">
+		<nav class="navbar container">
+	  		<a class="navbar-brand" href="#">
+		  		<img src="logo.png">
+		  		<span class="header-test">ALTOPROMO</span>
+		  		<span class="header-test text-italic">-верстка</span>
+		  	</a>
+		</nav>
+	</div>
+	<div class="container">
+		
+		<div id="modal-block" class="row mt-4">
+			<div class="col-3">
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#samllModal" >Маленькое модальное окно</button>
+			</div>
+			<div  class="col-2 offset-md-4">
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Modal">Модальное окно</button>
+			</div>
+			<div>
+				<button class="btn btn-outline-primary" type="submit">Большое модалное окно</button>
+			</div>
+		</div>
+		<div id="content" class="mt-5">
+			<h1>Container</h1>
+			<p>
+				Это базовый элемент в Bootstrap и они необходимы при использовании нашей стандартной сеточной системы. Контейнеры используются для размещения в них содержимого, дополнений и (иногда) центрирования содержимого внутри них. Хотя контейнеры могут быть вложенными, большинство макетов не требуют вложенного контейнера.<p>
+
+			<p>
+				В Bootstrap используется три разных типа контейнеров:
+			<p>
+			<ul class="ml-3">
+				<li>
+					.container, который устанавливает максимальную ширину max-width в каждой отзывчивой точке останова;
+				</li>
+				<li>.container-fluid, ширина которого width: 100% на всех точках останова;</li>
+				<li>.container-{breakpoint}, то есть ширина width: 100% до указанной точки останова.</li>
+			</ul>
+			<p>
+				В приведенной ниже таблице показано, как максимальная ширина max-width каждого контейнера .container и .container-fluid сравнивается с исходными в каждой точке останова.
+			</p>
+		</div>
+		<div id="heading-section" class="mt-5">
+			<p>Handing Section</p>
+			<div class="row no-gutters mt-4">
+				<div class="card col mr-4">
+					<img class="card-img-top" src="card-img.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Card title</h5>
+				    	<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				  	</div>
+				</div>
+				<div class="card col mr-4">
+					<img class="card-img-top" src="card-img.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Card title</h5>
+				    	<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				    	<a href="#" class="btn btn-primary">Go somewhere</a>
+				  	</div>
+				</div>
+				<div class="card col mr-4">
+					<img class="card-img-top" src="card-img.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Card title</h5>
+				    	<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				  	</div>
+				</div>
+				<div class="card col">
+					<img class="card-img-top" src="card-img.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Card title</h5>
+				    	<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				  	</div>
+				</div>
+			</div>
+			<div class="row no-gutters mt-4">
+				<div class="card col mr-4">
+					<img class="card-img-top" src="card-img.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Card title</h5>
+				    	<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				  	</div>
+				</div>
+				<div class="card col mr-4">
+					<img class="card-img-top" src="card-img.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Card title</h5>
+				    	<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				    	<a href="#" class="btn btn-primary">Go somewhere</a>
+				  	</div>
+				</div>
+				<div class="card col mr-4">
+					<img class="card-img-top" src="card-img.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Card title</h5>
+				    	<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				  	</div>
+				</div>
+				<div class="card col">
+					<img class="card-img-top" src="card-img.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Card title</h5>
+				    	<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				  	</div>
+				</div>
+			</div>
+		</div>
+		<div id="table" class="row mt-5">
+			<table class="table table-sm table-light">
+            	<thead>
+				    <tr>
+				      <th scope="col">#</th>
+				      <th scope="col">First Name</th>
+				      <th scope="col">Last Name</th>
+				      <th scope="col">User Name</th>
+		    		</tr>
+		  		</thead>
+		  		<tbody>
+				    <tr class="table-secondary">
+				      <th scope="row">1</th>
+				      <td>Mark</td>
+				      <td>Otto</td>
+				      <td>@mdo</td>
+				    </tr>
+				    <tr class="table-light">
+				      <th scope="row">2</th>
+				      <td>Jacob</td>
+				      <td>Thornton</td>
+				      <td>@fat</td>
+				    </tr>
+				    <tr class="table-success">
+				      <th scope="row">3</th>
+				      <td colspan="2">Larry the Bird</td>
+				      <td>@twitter</td>
+				    </tr>
+				     <tr class="table-light">
+				      <th scope="row">1</th>
+				      <td>Mark</td>
+				      <td>Otto</td>
+				      <td>@mdo</td>
+				    </tr>
+				    <tr class="table-primary">
+				      <th scope="row">2</th>
+				      <td>Jacob</td>
+				      <td>Thornton</td>
+				      <td>@fat</td>
+				    </tr>
+				    <tr class="table-light">
+				      <th scope="row">3</th>
+				      <td colspan="2">Larry the Bird</td>
+				      <td>@twitter</td>
+				    </tr>
+				    <tr class="table-warning">
+				      <th scope="row">1</th>
+				      <td>Mark</td>
+				      <td>Otto</td>
+				      <td>@mdo</td>
+				    </tr>
+				    <tr class="table-light">
+				      <th scope="row">2</th>
+				      <td>Jacob</td>
+				      <td>Thornton</td>
+				      <td>@fat</td>
+				    </tr>
+				    <tr class="table-danger">
+				      <th scope="row">3</th>
+				      <td colspan="2">Larry the Bird</td>
+				      <td>@twitter</td>
+				    </tr>
+		  		</tbody>
+			</table>
+		</div>
+		<div id="botton-cards" class="mt-5 mb-2">
+			<div class="row no-gutters">
+				<div class="card col mr-4">
+  					<div class="card-body">
+    					<h5 class="card-title">Card title</h5>
+    					<h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+    					<p class="card-text mb-0">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    					<a href="#" class="card-link">Card link</a>
+    					<a href="#" class="card-link">Another link</a>
+  					</div>
+				</div>
+				<div class="card col mr-4">
+  					<div class="card-body">
+    					<h5 class="card-title">Card title</h5>
+    					<h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+    					<p class="card-text mb-0">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    					<a href="#" class="card-link">Card link</a>
+    					<a href="#" class="card-link">Another link</a>
+  					</div>
+				</div>
+				<div class="card col mr-4">
+  					<div class="card-body">
+    					<h5 class="card-title">Card title</h5>
+    					<h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+    					<p class="card-text mb-0">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    					<a href="#" class="card-link">Card link</a>
+    					<a href="#" class="card-link">Another link</a>
+  					</div>
+				</div>
+				<div class="card col mr-4">
+  					<div class="card-body">
+    					<h5 class="card-title">Card title</h5>
+    					<h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+    					<p class="card-text mb-0">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    					<a href="#" class="card-link">Card link</a>
+    					<a href="#" class="card-link">Another link</a>
+  					</div>
+				</div>
+			</div>
+			<div class="row no-gutters mt-4">
+				<div class="card col mr-4">
+  					<div class="card-body">
+    					<h5 class="card-title">Card title</h5>
+    					<h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+    					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    					<a href="#" class="card-link">Card link</a>
+    					<a href="#" class="card-link">Another link</a>
+  					</div>
+				</div>
+				<div class="card col  mr-4">
+  					<div class="card-body">
+    					<h5 class="card-title">Card title</h5>
+    					<h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+    					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    					<a href="#" class="card-link">Card link</a>
+    					<a href="#" class="card-link">Another link</a>
+  					</div>
+				</div>
+				<div class="card col">
+  					<div class="card-body">
+    					<h5 class="card-title">Card title</h5>
+    					<h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+    					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    					<a href="#" class="card-link">Card link</a>
+    					<a href="#" class="card-link">Another link</a>
+  					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footer" class="container-md mt-5 mb-5">
+			<p><b>Pills</b></p>
+			<ul class="nav nav-pills mb-4">
+  				<li class="nav-item">
+    				<a class="nav-link active" href="#">Active</a>
+  				</li>
+			    <li class="nav-item">
+			    	<a class="nav-link" href="#">Link</a>
+			    </li>
+			    <li class="nav-item">
+			    	<a class="nav-link" href="#">Link</a>
+			    </li>
+			    <li class="nav-item">
+			    	<a class="nav-link disabled" href="#">Disabled</a>
+			    </li>
+			</ul>
+			<p class="text-justify">Навигация в Bootstrap имеет общую для подобного типа элементов разметку, от базового класса .nav до активных и «выключенных» состояний. Заменяйте классы-модификаторы для переключения между стилями.</p>
+
+			<p class="text-justify">Базовый компонент класса .nav создан на флексбоксе, что обеспечивает хорошую базу для создания всех типов навигационных компонентов. В него входят несколько стилей, которые «перебивают» остальные (для работы со списками), добавлены паддинги ссылок для увеличения «зоны клика», и базовые стили «выключенных» состояний.</p>
+		</div>
+		<div class="modal fade mt-4" id="samllModal" tabindex="-1" role="dialog"  aria-hidden="true">
+			<div class="modal-dialog " role="document">
+		    	<div class="modal-content">
+		      		<div class="modal-header">
+		        		<h5 class="modal-title" id="exampleModalLongTitle">Small Modal</h5>
+		        		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          		<span aria-hidden="true">&times;</span>
+		        		</button>
+		      		</div>
+		      		<div class="modal-body">
+		        		One fine body...
+		      		</div>
+		      		<div class="modal-footer">
+		        		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		        		<button type="button" class="btn btn-primary">Save changes</button>
+		      		</div>
+		    	</div>
+		  	</div>
+		</div>
+		<div class="modal fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  			<div class="modal-dialog-centered" role="document">
+    			<div class="modal-content">
+			    	<div class="modal-header">
+			        	<h5 class="modal-title" id="exampleModalLabel">New message</h5>
+			        	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			          		<span aria-hidden="true">&times;</span>
+			        	</button>
+			      	</div>
+      				<div class="modal-body">
+				        <form>
+				        	<div class="form-group">
+				            	<label for="recipient-name" class="col-form-label">Recipient:</label>
+				            	<input type="text" class="form-control" id="recipient-name">
+				          	</div>
+				          	<div class="form-group">
+				            	<label for="message-text" class="col-form-label">Message:</label>
+				            	<textarea class="form-control" id="message-text"></textarea>
+				          	</div>
+				        </form>
+				    </div>
+				    	<div class="modal-footer">
+				        	<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				        	<button type="button" class="btn btn-primary">Send message</button>
+				      	</div>
+    				</div>
+  				</div>
+		</div>
+	</div>
+</body>
+</html>
