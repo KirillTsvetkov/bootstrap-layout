@@ -69,10 +69,9 @@ ul{
     .big-card 
     {
     	min-width:328px;
+      margin-right:10px;
     }
-    #modalButton{
-    	text-align: center;
-    }
+   
 }
 
 @media (min-width:992px) {
